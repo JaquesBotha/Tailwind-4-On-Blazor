@@ -1,0 +1,26 @@
+@import "tailwindcss" prefix(tw);
+
+/* Custom table styles using @apply */
+.tw:table {
+    @apply tw:w-full tw:border-collapse tw:bg-white tw:shadow-lg dark:tw:bg-gray-800;
+}
+
+.tw:table th {
+    @apply tw:px-4 tw:py-2 tw:bg-gray-200 tw:text-left tw:font-bold tw:border-b tw:border-gray-300;
+}
+
+.tw:table td {
+    @apply tw:px-4 tw:py-2 tw:text-gray-700 tw:border-b tw:border-gray-300 tw:align-top;
+}
+
+.tw:table-hover tbody tr:hover {
+    @apply tw:bg-gray-100;
+}
+
+.tw:table-header {
+    @apply tw:bg-blue-500 tw:text-white;
+}
+
+.tw:table-row-footer td {
+    @apply tw:bg-gray-100 tw:font-medium;
+}

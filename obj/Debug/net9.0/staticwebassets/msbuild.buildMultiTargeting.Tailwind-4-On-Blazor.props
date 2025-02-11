@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Tailwind-4-On-Blazor.props" />
+</Project>

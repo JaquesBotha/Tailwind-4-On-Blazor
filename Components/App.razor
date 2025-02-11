@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
+    @* I left the Bootstrap Intentionally because we are still slowly migrating to Tailwind CSS. *@
+    @* Hence why we are using prefix tw- at this stage. *@
+    <link rel="stylesheet" href="@Assets["lib/bootstrap/dist/css/bootstrap.min.css"]" />
+    <link rel="stylesheet" href="@Assets["app.css"]" />
+    
+    @* Removed this Because we DON"T use this at all! *@
+    @* <link rel="stylesheet" href="@Assets["Tailwind-4-On-Blazor.styles.css"]" /> *@
+    @* *@
+    @* ---------------------- *@
+    @* IMPORT of Bundle.js *@
+    @* ---------------------- *@
+    <script src="js/bundle.js"></script>
+    
+    <ImportMap />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <HeadOutlet />
+</head>
+
+<body>
+    <Routes />
+    <script src="_framework/blazor.web.js"></script>
+</body>
+
+</html>

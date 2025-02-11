@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Tailwind-4-On-Blazor/1.0.0": {
+        "runtime": {
+          "Tailwind-4-On-Blazor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tailwind-4-On-Blazor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
